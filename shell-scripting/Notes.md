@@ -1,8 +1,8 @@
 ### Print
-echo helloworld
-echo "helloworld"
-echo -n "i won't create new line"
-echo "i will join above line"
+- echo helloworld
+- echo "helloworld"
+- echo -n "i won't create new line"
+- echo "i will join above line"
 
 ### Dates And Time
 - now=\`date\`
