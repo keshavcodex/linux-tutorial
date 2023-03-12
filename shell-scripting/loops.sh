@@ -1,5 +1,14 @@
 #!/bin/bash
 
+for ((i = 1; i <= n; i++))
+do
+    for ((j=1; j<=i; j++))
+    do
+        echo -n " * "
+    done
+    echo
+done
+
 for i in 1 2 3 4 5 
 do
     echo hello $i
