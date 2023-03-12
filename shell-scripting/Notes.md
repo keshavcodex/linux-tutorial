@@ -20,8 +20,6 @@
 - let "i++"
 - let "i+=5"
 
-_For_Loop_
-
 ```
 num=482
 if [ $num -gt 100 ]
@@ -35,6 +33,7 @@ else
 fi
 ```
 ---
+_For_Loop_
 ```
 for ((i = 1; i <= n; i++))
 do
