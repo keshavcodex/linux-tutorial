@@ -21,6 +21,7 @@
 - let "i+=5"
 
 _For_Loop_
+
 ```
 num=482
 if [ $num -gt 100 ]
@@ -33,14 +34,35 @@ else
     echo "$num is less than 100"
 fi
 ```
+---
+```
+for ((i = 1; i <= n; i++))
+do
+    for ((j=1; j<=i; j++))
+    do
+        echo -n " * "
+    done
+    echo
+done
+```
 
 _While_Loop_
+
 ```
 i=10
 while [ $i -le 50 ]
 do
     echo "value of i is $i"
     ((i+=5))
+done
+```
+---
+```
+n=15
+while ((i <= n))
+do
+    echo "hello i am $i"
+    ((i++))
 done
 ```
 

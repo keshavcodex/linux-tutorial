@@ -37,3 +37,10 @@ do
     echo "value of i is $i"
     i=`expr $i + 10`
 done
+
+n=15
+while ((i <= n))
+do
+    echo "hello i am $i"
+    ((i++))
+done
